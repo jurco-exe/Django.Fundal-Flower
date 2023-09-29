@@ -1,0 +1,8 @@
+{% extends "tasks/layout.html" %} {% block body %}
+<h1>Add Task</h1>
+<form action="">
+  <input type="text" name="task" placeholder="Type name of next task" />
+  <input type="submit" name="btn" />
+</form>
+<a href="{% url 'newyear:index' %}">Link to index</a>
+{% endblock %}
